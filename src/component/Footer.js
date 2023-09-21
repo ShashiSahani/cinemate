@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Footer() {
+export const Footer=()=> {
   return (
     <footer>
       footer @2023
@@ -8,4 +8,4 @@ function Footer() {
   )
 }
 
-export default Footer
+

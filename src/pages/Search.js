@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Search() {
+export const Search=()=> {
   return (
-    <div>
-      
-    </div>
+    <main>
+      Search
+    </main>
   )
 }
 
-export default Search
+

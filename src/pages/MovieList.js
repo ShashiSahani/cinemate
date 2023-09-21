@@ -1,11 +1,11 @@
 import React from 'react'
 
-function MovieList() {
+export const MovieList=()=> {
   return (
-    <div>
-      
-    </div>
+    <main>
+    Movie List
+    </main>
   )
 }
 
-export default MovieList
+
