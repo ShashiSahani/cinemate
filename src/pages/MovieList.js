@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Header } from "../component/Header";
+import { Footer } from "../component/Footer";
+import { MovieDetails } from "./MovieDetails";
 
-export const MovieList=()=> {
+export const MovieList = () => {
   return (
     <main>
-    Movie List
+      <Header />
+      <MovieDetails/>
+      <Footer/>
     </main>
-  )
-}
-
-
+  );
+};
